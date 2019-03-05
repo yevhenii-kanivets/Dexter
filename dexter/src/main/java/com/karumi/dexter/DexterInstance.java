@@ -125,6 +125,7 @@ final class DexterInstance {
    */
   void onActivityDestroyed() {
     isRequestingPermission.set(false);
+    isShowingNativeDialog.set(false);
     listener = EMPTY_LISTENER;
   }
 
